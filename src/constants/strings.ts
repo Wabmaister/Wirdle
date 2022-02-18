@@ -4,8 +4,7 @@ export const WIN_MESSAGES = ['Braw!', 'Grand', 'Weel duin!']
 export const GAME_COPIED_MESSAGE = 'Gemm copied tae clipbuird'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'No eneuch letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Wird no fund'
-export const HARD_MODE_ALERT_MESSAGE =
-u  'Hard Mode can juist be enabelt at the stert!'
+export const HARD_MODE_ALERT_MESSAGE = 'Hard Mode can juist be enabelt at the stert!'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `The wird wis ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
