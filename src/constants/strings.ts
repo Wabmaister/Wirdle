@@ -1,7 +1,7 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
 export const WIN_MESSAGES = ['Braw!', 'Grand', 'Weel duin!']
-export const GAME_COPIED_MESSAGE = 'Gemm copied tae clipbuird'
+export const GAME_COPIED_MESSAGE = 'Gemm copied tae the clipbuird'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'No eneuch letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Wird no fund'
 export const HARD_MODE_ALERT_MESSAGE = 'Hard Mode can juist be enabelt at the stert!'
