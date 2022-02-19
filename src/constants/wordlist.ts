@@ -1,5 +1,5 @@
 export const WORDS = [
-"aaber"
+"aaber",
 "thing",
 "avail",
 "moose",
