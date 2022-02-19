@@ -2995,7 +2995,6 @@ export const VALID_GUESSES = [
 "yairs",
 "yamph",
 "yappy",
-"Yaqui",
 "yarfa",
 "yarfy",
 "yarta",
@@ -3019,5 +3018,5 @@ export const VALID_GUESSES = [
 "youth",
 "yowes",
 "yowie",
-"zebra", 
+"zebra",
 ]
