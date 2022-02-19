@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Hou tae play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the wird 'ithin 6 shotties. Efter ilka shottie, the color o the tiles will
+        Guess the wird ithin 6 shotties. Efter ilka shottie, the color o the tiles will
         chynge for tae shaw hou near yer shottie wis tae the wird.
       </p>
 
@@ -27,7 +27,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is 'ithin the wird and in the richt kistie.
+        The letter W is ithin the wird and in the richt kistie.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -43,7 +43,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="N" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter D is 'ithin the wird but in the wrang kistie.
+        The letter D is ithin the wird but in the wrang kistie.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
