@@ -8,10 +8,10 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="Hou tae play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the wird ithin 6 shotties. Efter ilka shottie, the color o the tiles will
-        chynge for tae shaw hou near yer shottie wis tae the wird.
+        Guess the word in 6 tries. After each guess, the color of the tiles will
+        change to show how close your guess was to the word.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -27,43 +27,44 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is ithin the wird and in the richt kistie.
+        The letter W is in the word and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="B" />
+        <Cell value="P" />
         <Cell value="I" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="D"
+          value="L"
           status="present"
         />
-        <Cell value="I" />
-        <Cell value="N" />
+        <Cell value="O" />
+        <Cell value="T" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter D is ithin the wird but in the wrang kistie.
+        The letter L is in the word but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
+        <Cell value="V" />
         <Cell value="A" />
-        <Cell value="H" />
-        <Cell value="A" />
+        <Cell value="G" />
         <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="D" />
+        <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U isna in the wird in at aw.
+        The letter U is not in the word in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is drawn frae a pautent code version o the wird guessin gemm awbody kens -{' '}
+        This is an open source version of the word guessing game we all know and
+        love -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="underline font-bold"
         >
-           scance ower the code
+          check out the code here
         </a>{' '}
       </p>
     </BaseModal>
